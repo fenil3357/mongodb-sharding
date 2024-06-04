@@ -1,4 +1,5 @@
 import mongoose from 'mongoose'
+import { documentModel } from './models/document.model.js';
 
 const MONGO_URI = 'mongodb://localhost:27017/sharding-test';
 
@@ -15,5 +16,7 @@ db.on('error', (error) => {
 
 db.once('open', function () {
   console.log('CONNECTED TO MONGODB SUCCESSFULLY!!')
+
+  
 })
 
