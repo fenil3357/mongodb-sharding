@@ -116,9 +116,9 @@ node app.js
 ```
 use sharding-test
 
-sh.splitAt("myDatabase.documents", { shardKey: 25 })
-sh.splitAt("myDatabase.documents", { shardKey: 50 })
-sh.splitAt("myDatabase.documents", { shardKey: 75 })
+sh.splitAt("sharding-test.documents", { shardKey: 25 })
+sh.splitAt("sharding-test.documents", { shardKey: 50 })
+sh.splitAt("sharding-test.documents", { shardKey: 75 })
 ```
 
 16) Verify the distribution of data.
