@@ -12,4 +12,4 @@ const documentSchema = new Schema({
   }
 })
 
-export const documentModel = model('Document', documentSchema);
+export const documentModel = model('documents', documentSchema);
