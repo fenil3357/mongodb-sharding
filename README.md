@@ -17,7 +17,7 @@ To implement sharding in mongodb we need to create multiple shard servers and a 
 ```
 mongod --port 27020 --dbpath <YOUR_DATA_PATH_TO_SHARD1_DIRECTORY> --shardsvr --replSet rs1
 mongod --port 27021 --dbpath <YOUR_DATA_PATH_TO_SHARD2_DIRECTORY> --shardsvr --replSet rs2
-mongod --port 27022 --dbpath <YOUR_DATA_PATH_TO_SHARD2_DIRECTORY> --shardsvr --replSet rs3
+mongod --port 27022 --dbpath <YOUR_DATA_PATH_TO_SHARD3_DIRECTORY> --shardsvr --replSet rs3
 ```
 
 example data path : "C:\data\shard1"
